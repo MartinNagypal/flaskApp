@@ -1,0 +1,15 @@
+.container{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:"box-1, box-2 box-2 box-3";
+}
+
+.item{
+    padding: 2em;
+    background-color: purple;
+    color: wheat;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1rem;
+}
